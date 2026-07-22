@@ -1,0 +1,26 @@
+# test name, category, real vulnerability, cwe, Benchmark version: 0.1, 2026-05-22
+BenchmarkTest01231,racecond,true,362
+BenchmarkTest01232,racecond,true,367
+BenchmarkTest01233,racecond,true,833
+BenchmarkTest01234,racecond,true,362
+BenchmarkTest01235,racecond,true,362
+BenchmarkTest01236,redirect,true,601
+BenchmarkTest01237,redirect,true,601
+BenchmarkTest01238,redirect,true,601
+BenchmarkTest01239,redirect,true,601
+BenchmarkTest01240,redirect,true,601
+BenchmarkTest01241,jwt,true,347
+BenchmarkTest01242,jwt,true,347
+BenchmarkTest01243,jwt,true,347
+BenchmarkTest01244,jwt,true,347
+BenchmarkTest01245,jwt,true,347
+BenchmarkTest01246,fileupload,true,434
+BenchmarkTest01247,fileupload,true,434
+BenchmarkTest01248,fileupload,true,434
+BenchmarkTest01249,fileupload,true,434
+BenchmarkTest01250,fileupload,true,434
+BenchmarkTest01251,ssti,true,1336
+BenchmarkTest01252,ssti,true,1336
+BenchmarkTest01253,ssti,true,1336
+BenchmarkTest01254,ssti,true,1336
+BenchmarkTest01255,ssti,true,1336
