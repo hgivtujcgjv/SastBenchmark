@@ -1,6 +1,6 @@
 # SastBenchmark — ключи ответов
 
-Разметка для всех четырёх наборов. Сами кейсы лежат в ветках `*-bench` и намеренно
+Разметка для всех шести наборов. Сами кейсы лежат в ветках `*-bench` и намеренно
 не содержат разметки, чтобы прогон анализатора был слепым.
 
 ## Файлы
@@ -11,7 +11,9 @@
 | [`spring-bench`](../../tree/spring-bench) | `spring-bench-expectedresults.csv` | 55 | 33 | 22 |
 | [`python-bench`](../../tree/python-bench) | `python-bench-expectedresults.csv` | 25 | 25 | 0 |
 | [`go-bench`](../../tree/go-bench) | `go-bench-expectedresults.csv` | 50 | 30 | 20 |
-| **Итого** | | **183** | **123** | **60** |
+| [`spring-v2`](../../tree/spring-v2) | `spring-v2-expectedresults.csv` | 85 | 58 | 27 |
+| [`spring-blindspots`](../../tree/spring-blindspots) | `spring-blindspots-expectedresults.csv` | 88 | 54 | 34 |
+| **Итого** | | **356** | **244** | **112** |
 
 Формат (как в OWASP Benchmark):
 
@@ -31,6 +33,8 @@ BenchmarkTest05001,sqli,true,89
 | `spring-bench` | cors, csrf, databinder, deserialization, redirect, routerpathtraver, spel, sqlinj, ssrf, templateinj, xxe |
 | `python-bench` | fileupload, jwt, racecond, redirect, ssti |
 | `go-bench` | cmdi, jwt, pathtraver, racecond, sqli, ssrf, tlsverify, weakrand, xss, zipslip |
+| `spring-v2` | матрицы форм: точки входа · источники · redirect/ssrf/sqlinj/pathtraver/spel/templateinj/xxe/deser |
+| `spring-blindspots` | lombok, brokensanit, deadcode, jwt, csrf, databinder, ldapi, jndi, springdata, спринговые источники |
 
 ## Методика подсчёта
 
