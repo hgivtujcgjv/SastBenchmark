@@ -19,6 +19,7 @@
 | [`go-bench`](../../tree/go-bench) | Go, только stdlib | 50 | 10 |
 | `spring-v2` | Java / Spring Boot 3.5 | 85 | 10 |
 | `spring-blindspots` | Java / Spring Boot 3.5 | 88 | 10 |
+| `js-bench` | JavaScript / Node.js | 49 | 11 |
 | [`results`](../../tree/results) | ключи ответов, 4 CSV + методика | 183 | — |
 
 ```bash
