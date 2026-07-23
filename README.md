@@ -17,6 +17,8 @@
 | [`spring-bench`](../../tree/spring-bench) | Java, Spring Boot 3.5 | 55 | 11 |
 | [`python-bench`](../../tree/python-bench) | Python, Flask | 25 | 5 |
 | [`go-bench`](../../tree/go-bench) | Go, только stdlib | 50 | 10 |
+| `spring-v2` | Java / Spring Boot 3.5 | 85 | 10 |
+| `spring-blindspots` | Java / Spring Boot 3.5 | 88 | 10 |
 | [`results`](../../tree/results) | ключи ответов, 4 CSV + методика | 183 | — |
 
 ```bash
