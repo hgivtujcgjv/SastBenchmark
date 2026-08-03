@@ -41,3 +41,9 @@ git clone --branch go-bench --single-branch <url> go-bench
 анализатор не распознаёт.
 
 Методика подсчёта и оговорки к семантическому зачёту — в ветке [`results`](../../tree/results).
+
+
+
+
+P@ssw0rd
+P@ssword
